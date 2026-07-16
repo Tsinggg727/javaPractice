@@ -1,1 +1,17 @@
-/bin/
+# 编译生成的字节码文件
+bin/
+target/
+*.class
+
+# Eclipse 项目配置（选配，推荐忽略，避免不同电脑配置不同）
+.metadata/
+.recommenders/
+
+# 操作系统生成的垃圾文件
+.DS_Store
+Thumbs.db
+
+# IDE 临时文件
+*.swp
+*.swo
+*~

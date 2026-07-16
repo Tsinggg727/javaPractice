@@ -52,6 +52,7 @@ public class practice01 {
 	  for (int i=0;i<N;i++) {
 		  helper[arr[i]]++;
 		  if (helper[arr[i]]==2) {
+			  //x2为arr[i]才是真正重复的数
 			  x2=arr[i];
 			  break;
 		  	}  
