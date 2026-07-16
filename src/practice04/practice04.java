@@ -7,6 +7,7 @@ public class practice04 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
+		//只能用nextDouble nextFloat会被截断
 		double num=sc.nextDouble();
 		//字符串容器
 		StringBuilder sb=new StringBuilder("0.");
